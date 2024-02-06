@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Variables
-rg="user-xynmgamapvwy"
+rg="user-htzviwlbxqcx"
 location="eastus"
 vnetName="VNET"
 subnetName="SUBNET_1"
 vmName="IMAGE_VM"
 vmName2="VIDEO_VM"
-adminUsername="jm"
-adminPassword="Tinged-456!69420"
+adminUsername="kamal"
+adminPassword="Hello@12345#"
 
 # Check if resource group exists
 if az group exists --name $rg
@@ -26,8 +26,8 @@ az network vnet create --resource-group $rg --name $vnetName --address-prefixes 
 az network vnet subnet create --resource-group $rg --vnet-name $vnetName --name $subnetName --address-prefixes 10.0.0.0/24
 
 # Create VMs
-az vm create --resource-group $rg --name $vmName --image Ubuntu2204 --vnet-name $vnetName --subnet $subnetName --admin-username $adminUsername --admin-password $adminPassword
-az vm create --resource-group $rg --name $vmName2 --image Ubuntu2204 --vnet-name $vnetName --subnet $subnetName --admin-username $adminUsername --admin-password $adminPassword
+az vm create --resource-group $rg --name $vmName --image UbuntuLTS --vnet-name $vnetName --subnet $subnetName --admin-username $adminUsername --admin-password $adminPassword
+az vm create --resource-group $rg --name $vmName2 --image UbuntuLTS --vnet-name $vnetName --subnet $subnetName --admin-username $adminUsername --admin-password $adminPassword
 
 # Set up web servers
 for vm in $vmName $vmName2
