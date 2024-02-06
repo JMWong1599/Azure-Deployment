@@ -26,8 +26,8 @@ az network vnet create --resource-group $rg --name $vnetName --address-prefixes 
 az network vnet subnet create --resource-group $rg --vnet-name $vnetName --name $subnetName --address-prefixes 10.0.0.0/24
 
 # Create VMs
-az vm create --resource-group $rg --name $vmName --image ubuntults --vnet-name $vnetName --subnet $subnetName --admin-username $adminUsername --admin-password $adminPassword
-az vm create --resource-group $rg --name $vmName2 --image ubuntults --vnet-name $vnetName --subnet $subnetName --admin-username $adminUsername --admin-password $adminPassword
+az vm create --resource-group $rg --name $vmName --image UbuntuLTS --vnet-name $vnetName --subnet $subnetName --admin-username $adminUsername --admin-password $adminPassword
+az vm create --resource-group $rg --name $vmName2 --image UbuntuLTS --vnet-name $vnetName --subnet $subnetName --admin-username $adminUsername --admin-password $adminPassword
 
 # Set up web servers
 for vm in $vmName $vmName2
