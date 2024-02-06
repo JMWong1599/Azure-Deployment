@@ -8,7 +8,7 @@ subnetName="SUBNET_1"
 vmName="IMAGE_VM"
 vmName2="VIDEO_VM"
 adminUsername="jm"
-adminPassword="abcd1234"
+adminPassword="Tinged-456!69420"
 
 # Check if resource group exists
 if az group exists --name $rg
