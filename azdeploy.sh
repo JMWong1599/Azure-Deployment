@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-rg="user-qoolcdjjpaui"
+rg="user-hjhqjknfdvkt"
 location="eastus"
 vnetName="VNET"
 subnetName="SUBNET_1"
