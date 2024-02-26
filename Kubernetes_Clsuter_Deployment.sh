@@ -1,3 +1,4 @@
+# Install Azure CLI Linux Ubuntu - curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 # Set your variables
 rg="user-vsebvcziwnfx"
 location="eastus"
