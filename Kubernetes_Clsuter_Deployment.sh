@@ -1,6 +1,6 @@
 # Install Azure CLI Linux Ubuntu - curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 # Set your variables
-rg="user-vsebvcziwnfx"
+rg="user-trhftmtatnny"
 location="eastus"
 vnetName="K8S-VNET"
 subnetName="K8S-SUBNET_1"
