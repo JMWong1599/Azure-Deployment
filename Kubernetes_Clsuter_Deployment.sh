@@ -1,5 +1,5 @@
 # Set your variables
-rg="user-hjhqjknfdvkt"
+rg="user-vsebvcziwnfx"
 location="eastus"
 vnetName="K8S-VNET"
 subnetName="K8S-SUBNET_1"
