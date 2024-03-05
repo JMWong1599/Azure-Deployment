@@ -31,7 +31,7 @@ az network vnet subnet create \
 az vm create \
     --resource-group $rg \
     --name $vmName \
-    --image UbuntuLTS \
+    --image Ubuntu2204 \
     --admin-username $adminUsername \
     --admin-password $adminPassword \
     --location $location \
@@ -42,7 +42,7 @@ az vm create \
 az vm create \
     --resource-group $rg \
     --name $vmName1 \
-    --image UbuntuLTS \
+    --image Ubuntu2204 \
     --admin-username $adminUsername \
     --admin-password $adminPassword \
     --location $location \
@@ -53,7 +53,7 @@ az vm create \
 az vm create \
     --resource-group $rg \
     --name $vmName2 \
-    --image UbuntuLTS \
+    --image Ubuntu2204 \
     --admin-username $adminUsername \
     --admin-password $adminPassword \
     --location $location \
@@ -64,7 +64,7 @@ az vm create \
 az vm create \
     --resource-group $rg \
     --name $vmName3 \
-    --image UbuntuLTS \
+    --image Ubuntu2204 \
     --admin-username $adminUsername \
     --admin-password $adminPassword \
     --location $location \
