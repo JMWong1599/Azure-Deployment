@@ -2,7 +2,7 @@
 #!/bin/bash
 
 # Set your variables
-rg="user-hjhqjknfdvkt"
+rg="user-mkhwcnutdrfv"
 location="eastus"
 vmName="Control-plane"
 vmName1="Worker-1"
